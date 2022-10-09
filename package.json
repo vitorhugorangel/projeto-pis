@@ -1,0 +1,20 @@
+{
+  "name": "aula05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd front-end && npm test && npx codeceptjs run --steps && cd .. && cd back-end && composer test && cd ..",
+    "setup": "cd front-end && npm install && cd .. && cd back-end && composer install && cd ..",
+    "update": "cd front-end && npm update && cd .. && cd back-end && composer upgrade && cd .. "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.1.2",
+    "codeceptjs": "^3.3.6",
+    "jest": "^29.1.2",
+    "playwright": "^1.27.0"
+  }
+}

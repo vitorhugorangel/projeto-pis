@@ -1,0 +1,22 @@
+{
+    "name": "vitor/back-end",
+    "type": "project",
+    "license": "MIT",
+    "scripts": {
+        "test": "kahlan"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vitor\\Aula05\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vitorhugorangel",
+            "email": "vitorhugo.rangel@yahoo.com.br"
+        }
+    ],
+    "require-dev": {
+        "kahlan/kahlan": "^5.2"
+    }
+}
